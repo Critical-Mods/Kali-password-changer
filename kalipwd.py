@@ -4,7 +4,7 @@ import os
 from colorama import Fore, Style
 
 def change_password():
-    print(Fore.BLUE + Style.BRIGHT + f"[[[KALI PASSWORD CHANGING SCRIPT MADE BY CRITICAL]]]\n" + Style.RESET_ALL)
+    print(Fore.BLUE + Style.BRIGHT + f"[[[KALI STARTUP_LOGIN_SCREEN_PASSWORD CHANGING SCRIPT MADE BY CRITICAL]]]\n" + Style.RESET_ALL)
     username = input("Enter the username: ")
     new_password = getpass.getpass(prompt="Enter the new password: ")
 
