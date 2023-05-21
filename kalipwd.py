@@ -4,8 +4,7 @@ import os
 from colorama import Fore, Style
 
 def change_password():
-    hacker_emoji = "\U0001F4A9"  # Unicode escape sequence for hacker emoji
-    print(Fore.BLUE + Style.BRIGHT + f"KALI PASSWORD CHANGING SCRIPT MADE BY CRITICAL {hacker_emoji}\n" + Style.RESET_ALL)
+    print(Fore.BLUE + Style.BRIGHT + f"[[[KALI PASSWORD CHANGING SCRIPT MADE BY CRITICAL]]]\n" + Style.RESET_ALL)
     username = input("Enter the username: ")
     new_password = getpass.getpass(prompt="Enter the new password: ")
 
